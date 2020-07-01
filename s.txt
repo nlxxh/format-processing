@@ -1,0 +1,53 @@
+int aaa,b,c,m;
+long p,q;
+float d,e;
+double lll;
+int fun(int x1, float x2);
+int pro(int y1, int y2);
+int fun(int x1, float x2)
+{
+                char xxx[5];
+	char a1,a2,a3,a4;
+	aaa=123;
+	b=0123;
+	c=0X156;
+	m=10;
+	d=123f;
+	e=13.23;
+	a1='a';
+	a2='A';
+	a3='d';
+	xxx="dsad";
+	p=1222L;
+	q=12l;
+	if (x1>=x2 && x1!=0) 
+		{x1= a3==4 || a2!=6 && e>1 && e<5 && d>=1 && d<=9 && aaa+(10-b)*5/(d%10)+a1;m=x1;} 
+	else 
+		m=x2;
+	if (x1>3 && x1<8 || x1+x2==10 || x1!=x2 )
+	            m=x1+x2;
+	return m;
+}
+int pro(int y1, int y2)
+{
+                int i,j,k;
+                k=3;
+                while(1){
+                y1=9;
+                for(i=0;i<y1;i=i+1)
+                 for(j=i;j<=y2;j=j+2)
+                 {if(j==i+k) break;
+                else if(j==i+k-1) continue;}
+                }
+                if(aaa+i<=j)
+                {if(y1==y2) {j=j+1;k=j*k-5/k;}
+                else j=1;}
+                while(i+j==1 && j==(i+7)*8)
+                {while(i<= j || j!=i+3)
+                j=j+(3-6)*7;
+                }
+                return j;
+                
+}
+float x,y;
+
